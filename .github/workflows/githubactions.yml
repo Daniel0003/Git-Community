@@ -1,12 +1,12 @@
-name: Run shell commands
+name: Run Shell commands
 on: [push]
 
-jobs: 
-	run-shell-command:
-		runs-on: ubuntu latest
-		steps:
-			- name: Echo a string
-			   run: echo "Hello this is my new file"
+jobs:
+  run-shell-command:
+	runs-on: ubuntu-latest
+	steps:
+		-name: Echo a string
+		 run: echo " new file wokrflow"
 
 			
 			
